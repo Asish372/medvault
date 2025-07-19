@@ -1,10 +1,10 @@
 # 🏥 MedVault - Advanced Patient Record Management System
 
 > **Created by Asish Bindhani**  
-> 📧 **Email:** asishbindhani@gmail.com  
+> 📧 **Email:** work.asishbindhani@gmail.com  
 > 📱 **Phone:** +919337256379  
 > 💼 **Work:** Healthcare Technology Solutions  
-> 🔗 [GitHub](https://github.com/asish372) | [LinkedIn](https://linkedin.com/in/asish372)
+> 🔗 [GitHub](https://github.com/Asish372) | [LinkedIn](https://linkedin.com/in/asish372)
 
 A comprehensive, secure, and modern healthcare management platform built with the MERN stack, featuring role-based access control, real-time updates, and an intuitive user interface designed for hospitals, clinics, and healthcare providers.
 
