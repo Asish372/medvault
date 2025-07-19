@@ -70,13 +70,17 @@ app.get('/health', (req, res) => {
   })
 })
 
-// API routes
+// routes
 app.use('/api/auth', authRoutes)
 app.use('/api/users', userRoutes)
 app.use('/api/patients', patientRoutes)
 app.use('/api/records', recordRoutes)
 app.use('/api/upload', uploadRoutes)
 
+// root test route
+app.get("/", (req, res) => {
+  res.json({ success: true, message: "✅ MedVault Backend Running Successfully!" });
+});
 // Error handling middleware
 app.use(notFound)
 app.use(errorHandler)
