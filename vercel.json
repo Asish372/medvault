@@ -11,11 +11,10 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/client/dist/$1"
+      "handle": "filesystem"
     },
     {
-      "src": "/.*",
+      "src": "/(.*)",
       "dest": "/client/dist/index.html"
     }
   ],
